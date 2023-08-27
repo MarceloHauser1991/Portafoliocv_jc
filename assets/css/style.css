@@ -1,0 +1,113 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;  /* Asegura que la imagen cubra todo el espacio visible */
+    background-position: center;  /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita si es más pequeña que la pantalla */
+    background-attachment: fixed;  /* Hace que el fondo no se mueva al hacer scroll */
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    height: 450px;
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title, .card-text {
+    color: black;
+
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+}
+
+footer i {
+    margin: 0 15px;
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #007BFF;
+}
+
+.trabajo, .estudio {
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(59, 57, 57, 0.264);
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.hero {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7f7f7; /* Un fondo ligeramente gris para contrastar con el blanco del cuerpo */
+    border-bottom: 1px solid #e0e0e0; /* Una línea delgada en la parte inferior para definir la sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Una sombra sutil para dar profundidad */
+    padding: 40px 0; /* Espaciado arriba y abajo */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; /* Un color de texto oscuro para el título */
+}
+
+.hero img {
+    max-width: 100%;
+    border: 5px solid #ddd;
+    transition: transform 0.3s ease; /* Añade una transición suave al hacer hover en la imagen */
+}
+
+.hero img:hover {
+    transform: scale(1.1); /* Aumenta la imagen un 10% al pasar el ratón por encima */
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666; /* Un color de texto más suave para los párrafos */
+}
+
