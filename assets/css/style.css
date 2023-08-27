@@ -104,7 +104,7 @@ h1, h3, h4, h5, p{
 
 .hero img {
     max-width: 100%;
-    border: 5px solid #ddd;
+    border: 5px solid #0d3b24;
     transition: transform 0.3s ease; /* Añade una transición suave al hacer hover en la imagen */
 }
 
