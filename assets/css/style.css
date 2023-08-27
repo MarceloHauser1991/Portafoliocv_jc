@@ -59,7 +59,7 @@ body {
 footer {
     background-color:#0d3b24;
     color: #FFF;
-    height: 120px;
+    height: 140px;
     
     
 }
@@ -118,3 +118,7 @@ h1, h3, h4, h5, p{
     color: #666; /* Un color de texto más suave para los párrafos */
 }
 
+.copyright{
+     font-weight: 100;
+     font-size: 15px;
+}
