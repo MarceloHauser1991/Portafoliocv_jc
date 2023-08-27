@@ -36,6 +36,8 @@ body {
     border: none;
     border-radius: 10px;
     overflow: hidden;
+    background-color: #000000;
+    
 }
 
 .card:hover {
@@ -50,7 +52,7 @@ body {
 }
 
 .card-title, .card-text {
-    color: black;
+    color:white;
 
 }
 
@@ -70,16 +72,17 @@ footer i:hover {
 }
 
 .trabajo, .estudio {
-    background-color: #FFF;
+    background-color:black;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(59, 57, 57, 0.264);
 }
 
-h1, h3 {
-    color: #333;
+h1, h3, h4, h5, p{
+    color:white;
 }
+
 
 .hero {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
